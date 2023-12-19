@@ -1,0 +1,9 @@
+# Read content from a file
+with open('input.txt', 'r') as file:
+    content = file.read()
+    print("File Content:\n", content)
+
+# Write content to a new file
+with open('output.txt', 'w') as file:
+    file.write("Hello, World!\nThis is a sample file.")
+    print("Content written to 'output.txt'")
